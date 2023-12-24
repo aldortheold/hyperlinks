@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="shortcut icon" href="img/icon.png">
+    <title>Создание HTML-корсета</title>
+</head>
+<body>
+    <main id="p_main">
+        <h1 id="head">Создание HTML-корсета</h1>
+        <dev id="text">
+            <h3>Шаг 1: Создание нового HTML-файла</h3>
+            <p>
+                Начать необходимо с создания нового HTML-файла, который будет содержать структуру игры Wordle. Для
+                редактирования кода подойдёт любая среда разработки, но наиболее распространённым редактором на данный
+                момент является <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
+            </p>
+            <h3>Шаг 2: Настройка базовой структуры HTML</h3>
+            <p id="p2">
+                Для настройки базовой структуры HTML в файл необходимо добавить следующий код:
+                <label>
+                    <label id="grey">&lt;</label>!DOCTYPE <label id="blue">html</label><label id="grey">&gt;</label><br>
+                    <label id="grey">&lt;</label>html<label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;<label id="grey">&lt;</label>head<label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>meta <label id="blue">charset</label><label id="white">=</label><label id="orange">"UTF-8"</label><label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>meta <label id="blue">name</label><label id="white">=</label><label id="orange">"viewport"</label> <label id="blue">content</label><label id="white">=</label><label id="orange">"width=device-width, initial-scale=1.0"</label><label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>title<label id="grey">&gt;</label><label id="white">Wordle</label><label id="grey">&lt;/</label>title<label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>style<label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="green">/* Место размещения стилей CSS */</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;/</label>style<label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;<label id="grey">&lt;/</label>head<label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;<label id="grey">&lt;</label>body<label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="green">&lt;!-- Место размещения структуры игры --&gt;</label><br>
+                    &nbsp;&nbsp;<label id="grey">&lt;/</label>body<label id="grey">&gt;</label><br>
+                    <label id="grey">&lt;/</label>html<label id="grey">&gt;</label><br>
+                </label>
+            </p>
+            <h3>Шаг 3: Добавление всех необходимых элементов</h3>
+            <p>
+                Стандартный Wordle имеет простой и интуитивно понятный внешний вид.
+            </p>
+            <p>
+                Главная страница страницы обычно состоит из логотипа Wordle, который находится в верхней части страницы и может
+                быть кликабельным для перехода на главный экран игры. Под логотипом обычно располагается игровое поле, состоящее
+                из шести рядов по 5 квадратов — строки для угадывания слова.
+            </p>
+            <p id="p_label1">
+                Игрок должен отгадать это слово, используя подсказки. По ходу игры цвет квадрата должен будет изменяться в соответствии
+                с правилами. Квадрат удобнее всего будет представить в виде <label id="grey">&lt;</label><label id="darkblue">label</label><label id="grey">&gt;</label>-элемента.
+            </p>
+            <p>
+                Также на главном экране может присутствовать таймер, который показывает, сколько времени осталось до окончания игры
+                или ушло на её прохождение. Однако, классический Wordle не имеет таймера, сосредотачиваясь на анализе данных прохождения
+                игры гораздо больше.
+            </p>
+            <p>
+                Дизайн страницы может быть ярким, с использованием разноцветных элементов и эффектов, или же он может быть более
+                стилизованным и минималистичным, с использованием спокойных фоновых и цветовых схем.
+            </p>
+            <p>
+                Кроме того, страница может включать различные дополнительные функции, такие как рейтинговая система, таблица лидеров,
+                где игроки могут увидеть свои результаты и сравнить их с другими игроками, и возможность поделиться результатами
+                игры в социальных сетях или отправить их друзьям.
+            </p>
+        </dev>
+        <dev id="nav_buttons">
+            <a href="index.html"><button id="b7">&lt;&lt; В начало работы</button></a>
+            <a href="analysis.html"><button id="b6">&lt; Назад</button></a>
+            <a href="index.html#c1"><button id="b8">Содержание</button></a>
+            <a href="style.html"><button id="b10">Далее &gt;</button></a>
+            <a href="crossword.html"><button id="b9">В конец работы &gt;&gt;</button></a><br>
+            <br>
+        </dev>
+    </main>
+</body>
+</html>
