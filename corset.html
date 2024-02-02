@@ -5,74 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
     <link rel="shortcut icon" href="img/icon.png">
-    <title>Создание HTML-корсета</title>
+    <title>Creating HTML corset</title>
 </head>
 <body>
     <main id="p_main">
-        <h1 id="head">Создание HTML-корсета</h1>
-        <dev id="text">
-            <h3>Шаг 1: Создание нового HTML-файла</h3>
+        <h1 id="head">Creating HTML corset</h1>
+        <div id="text">
+            <h3>Step 1: Creating a new HTML file</h3>
             <p>
-                Начать необходимо с создания нового HTML-файла, который будет содержать структуру игры Wordle. Для
-                редактирования кода подойдёт любая среда разработки, но наиболее распространённым редактором на данный
-                момент является <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
+                You need to start by creating a new HTML file that will contain the structure of the Wordle game. For
+                any development environment is suitable for editing code, but the most common editor at the moment is
+                <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
             </p>
-            <h3>Шаг 2: Настройка базовой структуры HTML</h3>
+            <h3>Step 2: Configuring the basic HTML structure</h3>
             <p id="p2">
-                Для настройки базовой структуры HTML в файл необходимо добавить следующий код:
+                To set up the basic HTML structure, add the following code to the file:
                 <label>
                     <label id="grey">&lt;</label>!DOCTYPE <label id="blue">html</label><label id="grey">&gt;</label><br>
                     <label id="grey">&lt;</label>html<label id="grey">&gt;</label><br>
                     &nbsp;&nbsp;<label id="grey">&lt;</label>head<label id="grey">&gt;</label><br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>meta <label id="blue">charset</label><label id="white">=</label><label id="orange">"UTF-8"</label><label id="grey">&gt;</label><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>meta <label id="blue">name</label><label id="white">=</label><label id="orange">"viewport"</label> <label id="blue">content</label><label id="white">=</label><label id="orange">"width=device-width, initial-scale=1.0"</label><label id="grey">&gt;</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>meta <label id="blue">name</label><label id="white">=</label><label id="orange">"viewport"</label> <label id="blue">content</label><label id="white">=</label><label id="orange">"width=divice-width, initial-scale=1.0"</label><label id="grey">&gt;</label><br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>title<label id="grey">&gt;</label><label id="white">Wordle</label><label id="grey">&lt;/</label>title<label id="grey">&gt;</label><br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;</label>style<label id="grey">&gt;</label><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="green">/* Место размещения стилей CSS */</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="green">/* Place for CSS styles (better separate them into a single file) */</label><br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<label id="grey">&lt;/</label>style<label id="grey">&gt;</label><br>
                     &nbsp;&nbsp;<label id="grey">&lt;/</label>head<label id="grey">&gt;</label><br>
                     &nbsp;&nbsp;<label id="grey">&lt;</label>body<label id="grey">&gt;</label><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="green">&lt;!-- Место размещения структуры игры --&gt;</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="green">&lt;!-- Place for game structure --&gt;</label><br>
                     &nbsp;&nbsp;<label id="grey">&lt;/</label>body<label id="grey">&gt;</label><br>
                     <label id="grey">&lt;/</label>html<label id="grey">&gt;</label><br>
                 </label>
             </p>
-            <h3>Шаг 3: Добавление всех необходимых элементов</h3>
+            <h3>Step 3: Adding all the necessary elements</h3>
             <p>
-                Стандартный Wordle имеет простой и интуитивно понятный внешний вид.
+                The standard Wordle has a simple and intuitive appearance.
             </p>
             <p>
-                Главная страница страницы обычно состоит из логотипа Wordle, который находится в верхней части страницы и может
-                быть кликабельным для перехода на главный экран игры. Под логотипом обычно располагается игровое поле, состоящее
-                из шести рядов по 5 квадратов — строки для угадывания слова.
+                The main page of the page usually consists of the Wordle logo, which is located at the top of the page and can
+                be clickable to go to the main screen of the game. Under the logo there is usually a playing field consisting of
+                out of six rows of 5 squares, there are lines for guessing the word.
             </p>
             <p id="p_label1">
-                Игрок должен отгадать это слово, используя подсказки. По ходу игры цвет квадрата должен будет изменяться в соответствии
-                с правилами. Квадрат удобнее всего будет представить в виде <label id="grey">&lt;</label><label id="darkblue">label</label><label id="grey">&gt;</label>-элемента.
+                The player must guess this word using hints. As the game progresses, the color of the square will have to change according to
+                with the rules. The most convenient way to represent a square is as a <label id="grey"></label><label id="dark blue">label</label><label id="grey"></label> element.
             </p>
             <p>
-                Также на главном экране может присутствовать таймер, который показывает, сколько времени осталось до окончания игры
-                или ушло на её прохождение. Однако, классический Wordle не имеет таймера, сосредотачиваясь на анализе данных прохождения
-                игры гораздо больше.
+                There may also be a timer on the main screen that shows how much time is left until the end of the game
+                or it took to complete it. However, the classic Wordle does not have a timer, focusing on data analysis.
+                There are much more games.
             </p>
             <p>
-                Дизайн страницы может быть ярким, с использованием разноцветных элементов и эффектов, или же он может быть более
-                стилизованным и минималистичным, с использованием спокойных фоновых и цветовых схем.
+                The design of the page can be bright, using colorful elements and effects, or it can be more
+                stylized and minimalistic, using calm backgrounds and color schemes.
             </p>
             <p>
-                Кроме того, страница может включать различные дополнительные функции, такие как рейтинговая система, таблица лидеров,
-                где игроки могут увидеть свои результаты и сравнить их с другими игроками, и возможность поделиться результатами
-                игры в социальных сетях или отправить их друзьям.
+                In addition, the page may include various additional features such as a rating system, a leaderboard,
+                where players can see their results and compare them with other players, and the opportunity to share the results
+                games on social networks or send them to friends.
             </p>
-        </dev>
-        <dev id="nav_buttons">
-            <a href="index.html"><button id="b7">&lt;&lt; В начало работы</button></a>
-            <a href="analysis.html"><button id="b6">&lt; Назад</button></a>
-            <a href="index.html#c1"><button id="b8">Содержание</button></a>
-            <a href="style.html"><button id="b10">Далее &gt;</button></a>
-            <a href="crossword.html"><button id="b9">В конец работы &gt;&gt;</button></a><br>
+        </div>
+        <div id="nav_buttons">
+            <a href="index.html"><button id="b7">&lt;&lt; To the header</button></a>
+            <a href="index.html"><button id="b6">&lt; Back</button></a>
+            <a href="index.html#c1"><button id="b8">Contents</button></a>
+            <a href="corset.html"><button id="b10">Next &gt;</button></a>
+            <a href="crossword.html"><button id="b9">To the footer &gt;&gt;</button></a><br>
             <br>
-        </dev>
+        </div>
     </main>
 </body>
 </html>
