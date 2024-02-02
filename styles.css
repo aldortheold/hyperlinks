@@ -161,6 +161,7 @@ h3{
     margin-bottom: 10px;
     width: 140vh;
     color: #569cd6;
+    cursor: text;
 }
 #p2 #grey{
     background-color: transparent;
