@@ -1,3 +1,5 @@
+window.alert("Warning! The crossword on this page does not support English!")
+
 function changeField(){
     if (document.getElementById("crossword").src == "https://i.imgur.com/Prtqcnx.png"){
         document.getElementById("crossword").src = "img/crossword.png";
