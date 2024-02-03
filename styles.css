@@ -21,78 +21,34 @@ body{
     color: #fff389
 }
 #l1{
-    background: linear-gradient(rgb(0, 0, 30), rgb(48, 11, 117));
+    background-color: rgba(0, 0, 21, 0.333);
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 97%;
-    height: 4%;
+    width: 100%;
+    height: 6vh;
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 5vh;
     color: #FFFFFF;
     border:  1px solid #ffffff;
+    cursor: pointer;
 }
 #cont button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3.5vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    padding-top: 9%;
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 21, 0.333);
+    text-align: start;
+    width: 100%;
+    height: 15vh;
+    border-radius: 2vh;
     color: rgb(255, 255, 255);
     border:  1px solid #ffffff;
     font-weight: bold;
-    text-shadow:
-    -1px -1px 4px #000000,
-    1px -1px 4px #000000,
-    -1px 1px 4px #000000,
-    1px 1px 4px #000000;
     cursor: pointer;
 }
-#b1{
-    background-image: url("img/github_logo.jpg");
-    width: 80vh;
-    height: 26vh;
-    padding-left: 3%;
-}
-#b2{
-    background-image: url("img/html_logo.jpg");
-    width: 58vh;
-    height: 26vh;
-    padding-left: 3.3%;
-}
-#b3{
-    background-image: url("img/css_logo.jpg");
-    width: 52vh;
-    height: 26vh;
-    padding-left: 10%;
-}
-#b4{
-    background-image: url("img/js_logo.jpg");
-    width: 115vh;
-    height: 26vh;
-    padding-left: 14%;
-}
-#b5{
-    background-image: url("img/netlify_logo.jpg");
-    width: 75vh;
-    height: 26vh;
-    padding-left: 10%;
-}
-#bW{
-    background-image: url("img/wordle_cover.jpg");
-    width: 97%;
-    height: 34vh;
-}
-#b1:hover{background-image: url("img/github_logo_h.jpg");}
-#b2:hover{background-image: url("img/html_logo_h.jpg");}
-#b3:hover{background-image: url("img/css_logo_h.jpg");}
-#b4:hover{background-image: url("img/js_logo_h.jpg");}
-#b5:hover{background-image: url("img/netlify_logo_h.jpg");}
-#bW:hover{background-image: url("img/wordle_cover_h.jpg");}
+#cont button:hover{background-color: rgba(15, 15, 95, 0.333);}
 
 #p_main{
     width: 74%;
