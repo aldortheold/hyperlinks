@@ -85,18 +85,18 @@ body{
     height: 9vh;
     border-radius: 10px;
     color: rgb(205, 203, 255);
-    font-size: 140%;
+    font-size: 1.5rem;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     cursor: pointer;
 }
 #nav_buttons button:hover{background-color: rgba(12, 12, 112, 0.267);}
-#nav_buttons #b6{width: 18vh;}
-#nav_buttons #b7{width: 38vh;}
-#nav_buttons #b8{width: 30vh;}
-#nav_buttons #b9{width: 38vh;}
-#nav_buttons #b10{width: 18vh;}
+#nav_buttons #b6{width: 12%;}
+#nav_buttons #b7{width: 26%;}
+#nav_buttons #b8{width: 20%;}
+#nav_buttons #b9{width: 26%;}
+#nav_buttons #b10{width: 12%;}
 
 h3{
     text-decoration: underline;
